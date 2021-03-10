@@ -1,0 +1,39 @@
+* {
+
+    box-sizing: content-box;
+}
+body {
+    margin: 0;
+    background-color: linear-gradient (to top left );
+}
+
+.gamefield {
+    /* width: 100vh;
+    height: 100vh; */
+    margin-top: 100px;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    grid-template-columns: repeat(3, auto);
+
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: #aaa;
+    border: 2px solid black;
+    font-size: 50px;
+    text-align: center;
+    line-height: 50px;
+    cursor: pointer;
+    margin: 2px;
+}
+.modal {
+    width: 200px;
+    height: 100px;
+    background-color: #ccc;
+    border: 1px solid black;
+    margin: 50px auto;
+    display: none;
+}
